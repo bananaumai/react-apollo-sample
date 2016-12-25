@@ -1,0 +1,33 @@
+{
+  "name": "apollo-react-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base ./dist",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "eslint ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-react": "^6.8.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "apollo-client": "^0.5.24",
+    "graphql-tag": "^1.1.2",
+    "react": "^15.4.1",
+    "react-apollo": "^0.7.2",
+    "react-dom": "^15.4.1"
+  }
+}

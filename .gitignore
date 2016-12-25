@@ -1,0 +1,4 @@
+node_modules/
+config.secret.js
+dist/*.js
+dist/*.map
